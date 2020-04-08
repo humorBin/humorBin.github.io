@@ -1,0 +1,15 @@
+1、https://github.com/gohugoio/hugo/releases 中下载hugo命令程序
+2、双击运行
+3、cmd hugo version 
+	成功显示：Hugo Static Site Generator v0.68.3-157669A0 windows/amd64 BuildDate: 2020-03-24T12:04:36Z
+4、命令：hugo new site myblog
+5、官网找主题：https://themes.gohugo.io
+6、git clone https://github.com/xianmin/hugo-theme-jane.git jane
+7、查看themes文件夹下有jane主题
+8、hugo server -t jane -D
+9、访问本机 http://localhost:1313 成功显示首页
+10、创建文章：hugo new post/blog.md
+11、post 目录下看到blog.md，修改后重启（hugo server ...）
+12、hugo -t=jane -b="https://humorBin.github.io" -D  生产publish文件夹
+13、将其下的内容上传到 humorBin.github.io仓库
+14、浏览器访问即可：https://humorBin.github.io
